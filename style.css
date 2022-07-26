@@ -1,0 +1,36 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&family=Raleway&family=Roboto&display=swap');
+
+body{
+    font-family: 'Poppins' sans-serif;
+    background-color: #F3F1FF;
+    ;
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    background-color: white;
+    width: 870px;
+
+}
+.section-titles{
+    color: #562EFF;
+    font-size: 24px;
+}
+
+/* top players st */
+.players{
+    display: grid;
+    grid-template-columns:  repeat(3, 1fr);
+
+}
+.player{
+    display: flex;
+    align-items: center;
+}
+.player img{
+    width: 56px;
+    height: 56px;
+}
